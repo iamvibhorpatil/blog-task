@@ -26,8 +26,8 @@ The project follows a **RESTful API** structure, where the Laravel backend handl
 
 ### **1. Clone the Repository**
 ```sh
-git clone https://github.com/your-repo/blog-management.git
-cd blog-management
+git clone https://github.com/iamvibhorpatil/blog-task.git
+cd blog-task
 ```
 
 ### **2. Install Backend Dependencies**
@@ -45,9 +45,9 @@ Update your **`.env`** file with the correct database credentials:
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=your_database_name
-DB_USERNAME=your_database_user
-DB_PASSWORD=your_database_password
+DB_DATABASE=blog_db
+DB_USERNAME=root
+DB_PASSWORD=
 ```
 
 ### **4. Generate Application Key**
